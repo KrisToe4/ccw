@@ -4,8 +4,10 @@
 
     <span class="example-spacer"></span>
     
-    <button mat-button>About</button>
-    <button mat-button>Services</button>
-    <button mat-button>Contact</button>
+    <button mat-button (click)="onAboutClick()">About</button>
+    <button mat-button (click)="onSupportClick()">Tech Support</button>
+    <button mat-button (click)="onClassesClick()">Workshops & Classes</button>
+    <button mat-button (click)="onDevClick()">Software Development</button>
+    <button mat-button (click)="onContactClick()">Contact</button>
   </mat-toolbar-row>
 </mat-toolbar>

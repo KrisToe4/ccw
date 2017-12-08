@@ -7,17 +7,31 @@ import { MaterialModule } from '@modules/material.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import { LandingComponent } from '@components/landing/landing.component'
-import { NotFoundComponent } from '@components/not-found/not-found.component';
+// Partial Components
 import { HeaderComponent } from '@components/header/header.component';
+
+// Major Routes
+import { AboutComponent } from '@components/about/about.component';
+import { ClassesComponent } from '@components/classes/classes.component';
+import { ContactComponent } from '@components/contact/contact.component';
+import { DevComponent } from '@components/dev/dev.component';
+import { LandingComponent }     from '@components/landing/landing.component';
+import { NotFoundComponent }     from '@components/not-found/not-found.component';
+import { TechSupportComponent } from '@components/tech-support/tech-support.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    AboutComponent,
+    ContactComponent,
     HeaderComponent,
     LandingComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    TechSupportComponent,
+    ClassesComponent,
+    DevComponent
   ],
   imports: [
     BrowserModule,
